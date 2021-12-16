@@ -309,8 +309,11 @@ a{
 
 .map__title {
     margin-bottom: 46px;
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 130%;
+
+    color: #1F1E1E;
 }
 
-.title {}
-
-.map__iframe {}
