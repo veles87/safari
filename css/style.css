@@ -431,3 +431,74 @@ a{
 }
 
 
+
+/* tour */
+
+
+.tour {
+    padding: 100px 0;
+}
+
+.tour__title {
+    margin-bottom: 77px;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height:130%;
+
+    color: #1F1E1E;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tour__box {
+    column-count: 2;
+    column-gap: 46px;
+
+    border-bottom: 1px solid #D9D9DE;
+    margin-bottom: 44px;
+    padding-bottom: 50px;
+}
+
+.tour__text {
+    margin-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+
+    color: #1F1E1E;   
+}
+.tour__text span{
+    font-weight: 700;
+}
+
+.tour__info {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+}
+
+.tour__info-item {
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 130%;
+
+    color: #886239;
+    text-align: center;
+
+}
+
+.tour__info-text {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+
+    color: #1F1E1E;
+
+    text-align: center;
+}
