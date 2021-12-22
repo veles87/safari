@@ -633,13 +633,106 @@ a{
 .booking__checkbox:checked + .booking__checkbox-style::before{
     content: '';
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 16px;
+    height: 16px;
     background-color: #C4C4C4;
-    border: 1px solid rgba(0, 0, 255, 0.411);
+    border: 2px solid rgba(77, 77, 78, 0.411);
 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50% );
+}
 
+
+/* footer */
+
+.footer {
+    padding: 80px 0;
+
+    background: #1F1E1E;
+}
+
+.footer_logo {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.footer__info {
+    width: 225px;
+}
+
+.footer__box-title {
+    margin-bottom: 7px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #ffff;
+}
+
+.footer__copy {
+    margin-bottom: 3px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    color: #ffff;
+    opacity: 0.8;
+}
+
+.footer__link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #ffff;
+
+    text-decoration-line: underline;
+}
+
+.footer__address {
+    width: 164px;
+}
+
+.footer__address-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.footer__contacts {
+    width: 209px;
+}
+
+.footer__phone {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+
+.footer__mail {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
 }
